@@ -1,0 +1,26 @@
+// 全局 SCSS 变量
+$bg-base:       #0d1117;
+$bg-surface:    #161b22;
+$bg-elevated:   #1c2128;
+$bg-hover:      #21262d;
+$border:        #30363d;
+$border-light:  #3d444d;
+$text-primary: #e6edf3;
+$text-secondary:#8b949e;
+$text-muted:    #6e7681;
+$accent:        #2f81f7;
+$accent-glow:   rgba(47, 129, 247, 0.2);
+$accent-hover:  #58a6ff;
+$success:       #3fb950;
+$success-glow:  rgba(63, 185, 80, 0.15);
+$danger:        #f85149;
+$radius:        8px;
+$radius-sm:     5px;
+
+// Mars3D 版权标识隐藏（Logo 在容器右下角 .mars3d-popcorn）
+.mars3d-container,
+.mars3d-viewer {
+  .mars3d-popcorn {
+    display: none !important;
+  }
+}

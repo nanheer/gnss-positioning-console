@@ -1,0 +1,11 @@
+/* 基础重置样式：让地图容器撑满整屏 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html,
+#app {
+  height: 100%;
+}

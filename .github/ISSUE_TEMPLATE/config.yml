@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用问题 / 讨论
+    url: https://github.com/nanheer/gnss-positioning-console/discussions
+    about: 部署、配置、数据格式等使用问题建议在 Discussions 中交流
+  - name: 安全漏洞
+    url: https://github.com/nanheer/gnss-positioning-console/security/advisories/new
+    about: 请勿公开提交安全问题，使用私密漏洞报告

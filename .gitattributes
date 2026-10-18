@@ -1,0 +1,21 @@
+# 统一换行符，避免 Windows/Linux 混杂
+* text=auto eol=lf
+
+# Windows 脚本保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.zip binary
+
+# 观测数据文件较大且无意义的逐行 diff（保持原始字节，避免换行符被改写）
+*.o binary
+*.obs binary
+*.26O binary
+*.nav binary
+*.pos text eol=lf

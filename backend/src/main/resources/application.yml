@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gnss-solver
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 500MB
+
+solver:
+  # 相对路径以「jar 包所在目录」为基准（即后端目录），不再依赖启动时的工作目录
+  exe-path: ./position.exe
+  temp-dir: ./temp
+  # 解算超时（秒），长时段观测文件适当调大
+  timeout: 600
+  output-file: rover.pos
